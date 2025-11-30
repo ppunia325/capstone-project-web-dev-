@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanderlust Travel Agency</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">✈</span>
+        <span class="logo-text">Wanderlust</span>
+      </div>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#packages">Tour Packages</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#itinerary">Itinerary</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero / Banner -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 id="hero-title">Explore the World with Wanderlust</h1>
+        <p class="hero-tagline">
+          Your adventure starts here. Discover breathtaking destinations, curated tours,
+          and unforgettable experiences.
+        </p>
+        <div class="hero-actions">
+          <a href="#packages" class="btn btn-primary">Start Your Journey</a>
+          <a href="#destinations" class="btn btn-outline">View Destinations</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section class="section destinations" id="destinations">
+      <div class="container">
+        <header class="section-header">
+          <h2>Popular Destinations</h2>
+          <p>Handpicked locations loved by travelers around the world.</p>
+        </header>
+
+        <div class="grid destination-grid">
+          <article class="card destination-card">
+            <img src="https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=800"
+                 alt="Sunset at a beach in the Maldives" />
+            <div class="card-body">
+              <h3>Maldives</h3>
+              <p>Crystal clear waters, white sandy beaches, and luxurious resorts.</p>
+              <span class="tag">Beach Escape</span>
+            </div>
+          </article>
+
+          <article class="card destination-card">
+            <img src="https://images.pexels.com/photos/460740/pexels-photo-460740.jpeg?auto=compress&cs=tinysrgb&w=800"
+                 alt="Street view of Paris with the Eiffel Tower" />
+            <div class="card-body">
+              <h3>Paris</h3>
+              <p>The city of lights and romance, full of art, food, and history.</p>
+              <span class="tag">City Break</span>
+            </div>
+          </article>
+
+          <article class="card destination-card">
+            <img src="https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&w=800"
+                 alt="Green mountains and lake in Bali" />
+            <div class="card-body">
+              <h3>Bali</h3>
+              <p>Tropical paradise with lush rice fields, temples, and surf spots.</p>
+              <span class="tag">Island Adventure</span>
+            </div>
+          </article>
+
+          <article class="card destination-card">
+            <img src="https://images.pexels.com/photos/3781530/pexels-photo-3781530.jpeg?auto=compress&cs=tinysrgb&w=800"
+                 alt="Skyline of New York City" />
+            <div class="card-body">
+              <h3>New York</h3>
+              <p>The city that never sleeps, packed with iconic landmarks.</p>
+              <span class="tag">Urban Experience</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tour Packages -->
+    <section class="section packages" id="packages">
+      <div class="container">
+        <header class="section-header">
+          <h2>Featured Tour Packages</h2>
+          <p>Transparent pricing with carefully planned itineraries.</p>
+        </header>
+
+        <div class="grid package-grid">
+          <article class="card package-card">
+            <h3>Maldives Escape</h3>
+            <p class="package-location">4 Nights • Maldives</p>
+            <p class="package-price">$1,499</p>
+            <ul class="package-list">
+              <li>Beachfront resort stay</li>
+              <li>Sunset cruise &amp; snorkeling</li>
+              <li>Daily breakfast and dinner</li>
+            </ul>
+            <button class="btn btn-secondary" type="button">View Details</button>
+          </article>
+
+          <article class="card package-card">
+            <h3>Paris Discovery</h3>
+            <p class="package-location">5 Nights • France</p>
+            <p class="package-price">$1,899</p>
+            <ul class="package-list">
+              <li>Eiffel Tower &amp; Louvre tour</li>
+              <li>Seine river cruise</li>
+              <li>Central boutique hotel</li>
+            </ul>
+            <button class="btn btn-secondary" type="button">View Details</button>
+          </article>
+
+          <article class="card package-card">
+            <h3>Bali Adventure</h3>
+            <p class="package-location">6 Nights • Indonesia</p>
+            <p class="package-price">$1,299</p>
+            <ul class="package-list">
+              <li>Temple &amp; waterfall visits</li>
+              <li>Private island tour</li>
+              <li>Traditional Balinese dinner</li>
+            </ul>
+            <button class="btn btn-secondary" type="button">View Details</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Itinerary Section -->
+    <section class="section itinerary" id="itinerary">
+      <div class="container itinerary-inner">
+        <div class="itinerary-text">
+          <header class="section-header left">
+            <h2>Sample 5-Day Itinerary</h2>
+            <p>See how your days could look on our Bali Adventure package.</p>
+          </header>
+
+          <ol class="itinerary-list">
+            <li><strong>Day 1:</strong> Arrival, hotel check-in, and welcome dinner.</li>
+            <li><strong>Day 2:</strong> Ubud temples, rice terraces, and local market.</li>
+            <li><strong>Day 3:</strong> Beach time, snorkeling, and sunset at Tanah Lot.</li>
+            <li><strong>Day 4:</strong> Waterfalls and coffee plantation tour.</li>
+            <li><strong>Day 5:</strong> Leisure morning, shopping, and departure.</li>
+          </ol>
+        </div>
+
+        <aside class="itinerary-aside">
+          <h3>What’s Included</h3>
+          <ul>
+            <li>Airport transfers</li>
+            <li>Daily breakfast</li>
+            <li>Guided local tours</li>
+            <li>Travel insurance</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Reviews / Testimonials -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <header class="section-header">
+          <h2>Traveler Reviews</h2>
+          <p>Real experiences from our happy customers.</p>
+        </header>
+
+        <div class="grid review-grid">
+          <article class="card review-card">
+            <p class="review-text">
+              “Wanderlust arranged every detail perfectly. The Bali trip was the best
+              vacation of my life!”
+            </p>
+            <p class="review-name">— Aditi Sharma</p>
+            <p class="review-rating">★★★★★</p>
+          </article>
+
+          <article class="card review-card">
+            <p class="review-text">
+              “Great value for money and super friendly guides. Highly recommended.”
+            </p>
+            <p class="review-name">— Rahul Verma</p>
+            <p class="review-rating">★★★★☆</p>
+          </article>
+
+          <article class="card review-card">
+            <p class="review-text">
+              “From flights to hotels, everything was seamless. Can’t wait to book again!”
+            </p>
+            <p class="review-name">— Sara Williams</p>
+            <p class="review-rating">★★★★★</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Inquiry / Contact Form -->
+    <section class="section contact" id="contact">
+      <div class="container contact-inner">
+        <div class="contact-text">
+          <header class="section-header left">
+            <h2>Plan Your Next Trip</h2>
+            <p>Fill in the form and our travel experts will get back to you within 24 hours.</p>
+          </header>
+
+          <ul class="contact-highlights">
+            <li>Customized itineraries</li>
+            <li>Best price guarantee</li>
+            <li>24/7 travel support</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" aria-label="Travel inquiry form">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text" required placeholder="Enter your name" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com" />
+          </div>
+
+          <div class="form-group">
+            <label for="destination">Preferred Destination</label>
+            <select id="destination" name="destination" required>
+              <option value="">Select a destination</option>
+              <option value="maldives">Maldives</option>
+              <option value="paris">Paris</option>
+              <option value="bali">Bali</option>
+              <option value="newyork">New York</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Travel Date</label>
+              <input id="date" name="date" type="date" required />
+            </div>
+            <div class="form-group">
+              <label for="guests">Guests</label>
+              <input id="guests" name="guests" type="number" min="1" max="10" value="2" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message / Special Requests</label>
+            <textarea id="message" name="message" rows="4"
+              placeholder="Tell us about the kind of trip you are looking for..."></textarea>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Send Inquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <section class="footer-block">
+        <h3>Wanderlust</h3>
+        <p>Curating unforgettable travel experiences across the globe since 2024.</p>
+      </section>
+
+      <section class="footer-block">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#packages">Tour Packages</a></li>
+          <li><a href="#reviews">Traveler Stories</a></li>
+          <li><a href="#contact">Get a Quote</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-block">
+        <h3>Connect</h3>
+        <ul class="social-links">
+          <li><a href="#" aria-label="Visit our Facebook page">Fb</a></li>
+          <li><a href="#" aria-label="Visit our Instagram profile">Ig</a></li>
+          <li><a href="#" aria-label="Visit our Twitter profile">X</a></li>
+        </ul>
+        <p class="footer-copy">© 2025 Wanderlust Travel Agency. All rights reserved.</p>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
